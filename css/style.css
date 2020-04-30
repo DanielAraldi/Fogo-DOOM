@@ -2,8 +2,19 @@ body{
     background-color: #63431c;
     font-family: sans-serif;
 }
+.titulo{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    color: white;
+    font-size: 35pt;
+    text-shadow: 2px 4px #000;
+    text-align: center;
+}
+.titulo:hover{
+    color: #dfdddd;
+    text-shadow: 3px 6px #000;
+}
 #fogo{
-    padding-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
